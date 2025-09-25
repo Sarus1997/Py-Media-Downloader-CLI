@@ -15,7 +15,7 @@
 
 1. Clone โปรเจกต์นี้
 ```bash
-git clone https://github.com/username/youtube-downloader.git
+https://github.com/Sarus1997/py-media-downloader-cli
 
 cd youtube-downloader
 ```
