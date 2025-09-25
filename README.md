@@ -32,6 +32,31 @@ pip install -r requirements.txt
 python -m pip install -U yt-dlp
 ```
 
+### การตรวจสอบ yt-dlp รายละเอียดการรองรับ โดยใช้คําสั่ง
+
+```bash
+yt-dlp --list-extractors 
+```
+
+### ตัวอย่างเว็บไซต์ยอดนิยมที่ yt-dlp รองรับ
+- YouTube (รวมทั้ง playlist, channel, livestreams)
+- Facebook (วิดีโอแบบ public)
+- Instagram (reels, videos, stories)
+- TikTok
+- Twitter / X (วิดีโอและ GIF)
+- SoundCloud
+- Vimeo
+- Twitch (VOD, livestreams)
+- Bilibili
+- DailyMotion
+
+### ถ้าอยากเช็คเว็บใดเว็บหนึ่ง เช่น youtube หรือ tiktok:
+
+```bash
+yt-dlp --list-extractors | grep youtube
+yt-dlp --list-extractors | grep tiktok
+```
+
 3. ติดตั้ง ffmpeg สำหรับคุณภาพสูง (ไม่บังคับ) 
 
 - Windows: ดาวน์โหลด ffmpeg
