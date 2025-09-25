@@ -17,7 +17,7 @@
 ```bash
 https://github.com/Sarus1997/py-media-downloader-cli
 
-cd youtube-downloader
+cd py-media-downloader-cli
 ```
 
 2. ติดตั้ง dependencies
