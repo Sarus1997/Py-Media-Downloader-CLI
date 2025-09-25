@@ -1,4 +1,4 @@
-<h1>Media Downloader CLI</h1>
+# Media Downloader CLI
 
 ### โปรเจกต์ Python สำหรับดาวน์โหลดวิดีโอและออดิโอจากเว็บไซต์ต่าง ๆ ด้วย `yt-dlp`   รองรับการดาวน์โหลดคุณภาพสูง และสามารถแปลงไฟล์ออดิโอเป็น MP3 ได้ถ้ามี `ffmpeg` ติดตั้งอยู่ในระบบ
 
@@ -15,7 +15,7 @@
 
 1. Clone โปรเจกต์นี้
 ```bash
-https://github.com/Sarus1997/py-media-downloader-cli
+git clone https://github.com/Sarus1997/py-media-downloader-cli
 
 cd py-media-downloader-cli
 ```
@@ -65,7 +65,7 @@ yt-dlp --list-extractors | grep tiktok
 
 ---
 
-<h2>ตัวอย่างการใช้งาน</h2>
+## ตัวอย่างการใช้งาน
 
 ### แก้ไขไฟล์ `main.py` เพื่อกำหนด URL และโหมดการดาวน์โหลด
 
@@ -95,15 +95,18 @@ python main.py
 | AUDIO_BITRATE | คุณภาพไฟล์ MP3 (kbps)                       | `"320K"`      |
 
 
-<h2> หมายเหตุ: </h2>
+## หมายเหตุ: 
 
 - ถ้า ไม่มี ffmpeg → audio จะถูกดาวน์โหลดเป็นไฟล์ต้นฉบับ (.webm/.m4a)
 - โปรแกรมนี้ ไม่รองรับ playlist
 - การดาวน์โหลดขึ้นอยู่กับข้อกำหนดและนโยบายของแต่ละเว็บไซต์
 
-<h2> ข้อมูลเพิ่มเติม: </h2>
+## ข้อมูลเพิ่มเติม:
 
 - `__pycache__` เป็นโฟลเดอร์ที่ Python สร้างขึ้นเพื่อเก็บ ไฟล์ bytecode (.pyc)
 - ไฟล์เหล่านี้ช่วยให้ Python รันเร็วขึ้น แต่ ไม่จำเป็นสำหรับการแชร์หรือเก็บใน Git
 - การเก็บไว้ใน repo จะทำให้ repo มีขนาดใหญ่ขึ้นโดยไม่จำเป็น
 - ควรลบ `__pycache__` เมื่อใช้งานเสร็จสมบูรณ์ เพื่อประหยัดหน่วยความจํา ดังนั้น แม้คุณลบ __pycache__ แล้ว ถ้ารันสคริปต์ Python อีกครั้ง Python จะสร้างโฟลเดอร์และไฟล์ .pyc ใหม่ทันที
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
